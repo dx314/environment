@@ -27,4 +27,6 @@ fi
 ./system/package_manager.sh
 ./system/repos.sh
 ./installers/go.sh
+./installers/telegram.sh
+./installers/discord.sh
 ./installers/vscode.sh
