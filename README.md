@@ -24,4 +24,5 @@ These scripts are designed to streamline the installation and configuration proc
   |  |  |-telegram.png
   |-meta
   |  |-write_readme.sh
-``` -- end --
+⎻⎻
+```

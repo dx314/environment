@@ -5,7 +5,7 @@ README="README.md"
 
 # Define the start and end markers for the Layout section
 LAYOUT_START="## Layout"
-LAYOUT_END="\`\`\` -- end --"
+LAYOUT_END="⎻⎻\n\`\`\`"
 
 # Generate the file tree, excluding hidden files and directories
 FILE_TREE=$(find . -not -path '*/\.*' | sed -e "s/[^-][^\/]*\//  |/g" -e "s/|\([^ ]\)/|-\1/")
@@ -25,7 +25,8 @@ NEW_README_CONTENT="${PRE_LAYOUT}
 $LAYOUT_START
 \`\`\`plaintext
 $FILE_TREE
-$LAYOUT_END
+⎻⎻
+\`\`\`
 ${POST_LAYOUT}"
 
 # Write the new content to the README file
